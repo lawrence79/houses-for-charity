@@ -33,6 +33,5 @@
   },
   "_source": "git://github.com/nosir/obelisk.js.git",
   "_target": "~1.0.2",
-  "_originalSource": "obelisk.js",
-  "_direct": true
+  "_originalSource": "obelisk.js"
 }

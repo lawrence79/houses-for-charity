@@ -1,18 +1,13 @@
 {
-  "name": "houses-for-charity",
-  "version": "0.0.0",
-  "description": "houses-for-charity ==================",
-  "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/lawrence79/houses-for-charity.git"
-  },
-  "author": "lawrence norton",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/lawrence79/houses-for-charity/issues"
-  }
+	"name": "application-name",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"start": "node app.js"
+	},
+	"dependencies": {
+		"express": "3.5.0",
+		"jade": "*",
+		"less-middleware": "*"
+	}
 }
