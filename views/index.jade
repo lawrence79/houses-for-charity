@@ -1,12 +1,16 @@
 extends layout
 
 block content
-  .donation-ui
-    ul
-      li hello
-  .container.container-center
-    header.header
-
-  .house-canvas
-    section#housebuilder
+  .uk-container.uk-container-center
+    .uk-grid
+      .uk-width-3-4
+        .house-canvas
+          |&nbsp;
+      .uk-width-1-4
+        .donation-menu
+          ul.uk-nav
+            li
+              a(href='') Materials
+            li.uk-active
+              a(href='') Labor
 
