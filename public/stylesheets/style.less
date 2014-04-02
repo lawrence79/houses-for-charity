@@ -1,8 +1,59 @@
+/* ********************* DEVIBOOK.COM **************************************
+*
+* Created by Lawrence Norton
+* Repo: https://github.com/lawrence79/houses-for-charity.git
+* User:lawrence79
+* Website:tbd
+* Date:April 1st,
+2014
+*
+************************************************************************** */
+@white:#fff;
+@gray: #333;
+@base-font-size: 16px;
+
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background: url('../images/haiti-bg.jpg');
+  background-size: cover;
+  background-position: center 0;
+  background-attachment: fixed;
+  background-size: 110%;
+  font: normal  bold @base-font-size 'Helvetica Neue', Helvetica, Verdana, sans-serif;
+}
+h1 {
+  font-weight: 800;
+  font-size: 4em;
+  margin:0;
+  color: @gray;
+  text-align: left;
+}
+.container {
+  max-width: 1000px;
+  width: 1000px;
+  margin: 0;
+  padding: 0;
+}
+.container-center {
+  margin: 0px auto;
+  text-align: center;
 }
 
-a {
-  color: #00B7FF;
+// House Builder
+
+#housebuilder {
+  background-image: url('../images/house-outline.png');
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-color: rgba(255,255,255,0.7);
+  padding: 15px;
+  width:800px;
+  height:550px;
+  border-radius: 6px;
+}
+
+.donation-ui {
+  background: #f2f2f2;
+  min-height:100%;
+  width:250px;
+
 }
